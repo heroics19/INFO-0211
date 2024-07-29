@@ -21,17 +21,17 @@
 /*-- Site Fonts --*/
 @font-face {
     font-family: 'Pacifico';
-    src: url("/Pacifico-Regular.ttf") format('truetype');
+    src: url("Pacifico-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url("/Montserrat-Regular.ttf") format('truetype');
+    src: url("Montserrat-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("/Roboto-Regular.ttf") format('truetype');
+    src: url("Roboto-Regular.ttf") format('truetype');
 }
 
 body {
