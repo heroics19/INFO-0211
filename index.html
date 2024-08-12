@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Krystal Klear Klean</title>
+        <meta name="keywords" content="krystal, kear, klean, clean, cleaning">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Discover Krystal Klear Klean, your premier cleaning service dedicated to delivering spotless results for homes and businesses. Experience professional, reliable, and eco-friendly cleaning solutions tailored to your needs. Let us bring a sparkling touch to your space!">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 page-header">
+                        <h1>Krystal Klear Klean</h1>
+                        <div class="hamburger" onclick="toggleMenu()">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+
+                        <div class="hidden-nav" id="hiddenNav">
+                            <ul>
+                                <li><a href="#"><strong>Home</strong></a><hr></li>
+                                <li><a href="/services.html"><strong>Services</strong></a><hr></li>
+                                <li><a href="/about-us.html"><strong>About Us</strong></a><hr></li>
+                                <li><a href="/contact-us.html"><strong>Contact Us</strong></a><hr></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--[MAIN CONTENT <>]-->
+            <div class="main-content">
+                <div class="container-fluid layout">
+                    <div class="row item">
+                        <div class="col-sm-12 page-topic">
+                            <header>
+                                <h2>Homepage</h2>
+                            </header>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="col-sm-12 content">
+                            <header>
+                                <h3>Introduction</h3>
+                            </header>
+                            <div class="body">
+                                <p>Welcome to Krystal Klear Klean! I'm Rondell Mohammed, and I specialize in delivering top-notch cleaning services to make your home and vehicle look and feel brand new. From eco-friendly cleaning products to meticulous attention to detail, I ensure every job is done to perfection.</p>
+                                <p>Ready to experience our top-notch cleaning services? <a href="/about-us.html"><button class="mybutton">Click Here</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="col-sm-12 content">
+                            <header>
+                                <h3>Services</h3>
+                            </header>
+                            <div class="body">
+                                <div class="slideshow-container">
+                                    <div class="slide fade">
+                                        <img class="slide-img" src="images/mattress.jpg" alt="A Mattress">
+                                        <div class="caption">Thorough cleaning to ensure a fresh and healthy sleeping environment.</div>
+                                    </div>
+
+                                    <div class="slide fade">
+                                        <img class="slide-img" src="images/carpet.jpg" alt="A Carpet">
+                                        <div class="caption">Deep cleaning to remove dirt, stains, and allergens.</div>
+                                    </div>
+
+                                    <div class="slide fade">
+                                        <img class="slide-img" src="/images/couches.jpg" alt="Couches and Chairs">
+                                        <div class="caption">Expert upholstery cleaning to refresh and revitalize your furniture.</div>
+                                    </div>
+
+                                    <div class="slide fade">
+                                        <img class="slide-img" src="/images/car.jpg" alt="A Car">
+                                        <div class="caption">Complete interior cleaning to keep your vehicle spotless and comfortable.</div>
+                                    </div>
+
+                                    <div class="slide fade">
+                                        <img class="slide-img" src="/images/mat.jpg" alt="A Mat">
+                                        <div class="caption">Comprehensive cleaning to remove dirt and extend the life of your mats.</div>
+                                    </div>
+                                    <!--NAVIGATION DOTS-->
+                                    <div class="dot-container">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                        <span class="dot" onclick="currentSlide(5)"></span>
+                                    </div>
+
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="col-sm-12 content">
+                            <header>
+                                <h3>Pricing Information</h3>
+                            </header>
+                            <div class="body">
+                                <p>As the sole operator of Krystal Klear Klean, I offer personalized and flexible pricing based on the difficulty and specific requirements of each job. Here's how my pricing works:</p>
+                                <p><strong>Customized Quotes:</strong> I provide personalized quotes after evaluating the complexity and size of the task. Contact me for a free consultation and estimate.</p>
+
+                                <h4>Factors I Consider</h4>
+                                <ul>
+                                    <li><strong>Surface Area:</strong> Larger areas may require more time and resources.</li>
+                                    <li><strong>Stains and Dirt Levels:</strong> Heavily soiled areas or tough stains might need specialized treatments.</li>
+                                    <li><strong>Material Type:</strong> Different materials require different cleaning methods and products.</li>
+                                    <li><strong>Frequency of Service:</strong> Regular cleaning services may qualify for discounted rates.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--[PAGE NAVIGATION <>]-->
+                <div class="container-fluid navigation">
+                    <div class="row">
+                        <div class="col-sm-12 section">
+                            <h5>Visit</h5>
+                            <ul>
+                                <li>
+                                    <a href="#"><strong>Home</strong></a>
+                                    <p>Return to homepage.</p>
+                                </li>
+                                <li>
+                                    <a href="/services.html"><strong>Services</strong></a>
+                                    <p>Explore our services</p>
+                                </li>
+                                <li>
+                                    <a href="/about-us.html"><strong>About Us</strong></a>
+                                    <p>Find out More</p>
+                                </li>
+                                <li>
+                                    <a href="/contact-us.html"><strong>Contact Us</strong></a>
+                                    <p>Reach out for inquiries</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--[PAGE FOOTER <>]-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 page-footer">
+                        <p>Krystal Klear Klean &copy;</p>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="/about-us.html">About Us</a></li>
+                            <li><a href="/contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/js/myscript.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
